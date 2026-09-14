@@ -1,0 +1,4 @@
+// Obtiene el nombre del archivo JS o HTML desde la URL actual
+const nombreArchivo = window.location.pathname.split('/').pop();
+
+console.log(nombreArchivo);
